@@ -1,7 +1,7 @@
 [
    {
       "id": 3,
-      "poster": "/posters/3.jpg",
+      "poster": "public/posters/3.jpg",
       "titulo": "The Mandalorian",
       "categoria": "Serie",
       "genero": "Ciencia Ficción, Fantasía",
@@ -12,7 +12,7 @@
    },
    {
       "id": 4,
-      "poster": "/posters/4.jpg",
+      "poster": "public/posters/3.jpg",
       "titulo": "The Umbrella Academy",
       "categoria": "Serie",
       "genero": "Ciencia Ficción, Fantasía",
@@ -23,7 +23,7 @@
    },
    {
       "id": 5,
-      "poster": "/posters/5.jpg",
+      "poster": "public/posters/5.jpg",
       "titulo": "Gambito de Dama",
       "categoria": "Serie",
       "genero": "Drama, Ficción, Sucesos",
@@ -34,7 +34,7 @@
    },
    {
       "id": 6,
-      "poster": "/posters/6.jpg",
+      "poster": "public/posters/6.jpg",
       "titulo": "Enola Holmes",
       "categoria": "Película",
       "genero": "Ficción, Drama, Misterio",
@@ -45,7 +45,7 @@
    },
    {
       "id": 2,
-      "poster": "/posters/2.jpg",
+      "poster": "public/posters/2.jpg",
       "titulo": "Riverdale",
       "categoria": "Serie",
       "genero": "Drama, Misterio, Ficción",
@@ -56,7 +56,7 @@
    },
    {
       "id": 1,
-      "poster": "/posters/1.jpg",
+      "poster": "public/posters/1.jpg",
       "titulo": "The Crown",
       "categoria": "Serie",
       "genero": "Drama, Hechos verídicos",
@@ -67,7 +67,7 @@
    },
    {
       "id": 7,
-      "poster": "/posters/7.jpg",
+      "poster": "public/posters/7.jpg",
       "titulo": "Guasón",
       "categoria": "Película",
       "genero": "Crimen, Suspenso, Drama",
@@ -78,7 +78,7 @@
    },
    {
       "id": 8,
-      "poster": "/posters/8.jpg",
+      "poster": "public/posters/8.jpg",
       "titulo": "Avengers: End Game",
       "categoria": "Película",
       "genero": "Aventura, Sci-Fi, Acción",
@@ -89,7 +89,7 @@
    },
    {
       "id": 9,
-      "poster": "/posters/9.jpg",
+      "poster": "public/posters/9.jpg",
       "titulo": "Juego de tronos",
       "categoria": "Serie",
       "genero": "Aventura, Fantasía, Drama",
@@ -100,7 +100,7 @@
    },
    {
       "id": 10,
-      "poster": "/posters/10.jpg",
+      "poster": "public/posters/10.jpg",
       "titulo": "The Flash",
       "categoria": "Serie",
       "genero": "Ciencia Ficción, Fantasía",
@@ -111,7 +111,7 @@
    },
    {
       "id": 11,
-      "poster": "/posters/11.jpg",
+      "poster": "public/posters/11.jpg",
       "titulo": "The Big Bang Theory",
       "categoria": "Serie",
       "genero": "Comedia, Fantasía, Ficción",
@@ -122,7 +122,7 @@
    },
    {
       "id": 12,
-      "poster": "/posters/12.jpg",
+      "poster": "public/posters/12.jpg",
       "titulo": "Friends",
       "categoria": "Serie",
       "genero": "Comedia, Familia, Drama",
@@ -133,7 +133,7 @@
    },
    {
       "id": 13,
-      "poster": "/posters/13.jpg",
+      "poster": "public/posters/13.jpg",
       "titulo": "Anne with an 'E'",
       "categoria": "Serie",
       "genero": "Drama, Familia, Western",
@@ -144,7 +144,7 @@
    },
    {
       "id": 14,
-      "poster": "/posters/14.jpg",
+      "poster": "public/posters/14.jpg",
       "titulo": "Expedientes Secretos 'X'",
       "categoria": "Serie",
       "genero": "Drama, Ciencia Ficción",
@@ -155,7 +155,7 @@
    },
    {
       "id": 15,
-      "poster": "/posters/15.jpg",
+      "poster": "public/posters/15.jpg",
       "titulo": "Chernobyl",
       "categoria": "Serie",
       "genero": "Drama, Hechos verídicos",
@@ -166,7 +166,7 @@
    },
    {
       "id": 16,
-      "poster": "/posters/16.jpg",
+      "poster": "public/posters/16.jpg",
       "titulo": "Westworld",
       "categoria": "Serie",
       "genero": "Western, Ciencia Ficción",
@@ -177,7 +177,7 @@
    },
    {
       "id": 17,
-      "poster": "/posters/17.jpg",
+      "poster": "public/posters/17.jpg",
       "titulo": "Halt and Catch Fire",
       "categoria": "Serie",
       "genero": "Ficción, Drama, Tecnología",
@@ -188,7 +188,7 @@
    },
    {
       "id": 18,
-      "poster": "/posters/18.jpg",
+      "poster": "public/posters/18.jpg",
       "titulo": "Ava",
       "categoria": "Película",
       "genero": "Acción, Drama, Suspenso",
@@ -199,7 +199,7 @@
    },
    {
       "id": 19,
-      "poster": "/posters/19.jpg",
+      "poster": "public/posters/19.jpg",
       "titulo": "Aves de presa y la fantabulosa emancipación de una Harley Quinn",
       "categoria": "Película",
       "genero": "Acción, Ficción, Comedia",
@@ -210,7 +210,7 @@
    },
    {
       "id": 20,
-      "poster": "/posters/20.jpg",
+      "poster": "public/posters/20.jpg",
       "titulo": "Archive",
       "categoria": "Película",
       "genero": "Acción, Sci-Fi, Suspenso",
@@ -221,7 +221,7 @@
    },
    {
       "id": 21,
-      "poster": "/posters/21.jpg",
+      "poster": "public/posters/21.jpg",
       "titulo": "Jumanji - The next level",
       "categoria": "Película",
       "genero": "Comedia, Ficción, Aventura",
@@ -232,7 +232,7 @@
    },
    {
       "id": 22,
-      "poster": "/posters/22.jpg",
+      "poster": "public/posters/22.jpg",
       "titulo": "3022",
       "categoria": "Película",
       "genero": "Ciencia Ficción, Suspenso",
@@ -243,7 +243,7 @@
    },
    {
       "id": 23,
-      "poster": "/posters/23.jpg",
+      "poster": "public/posters/23.jpg",
       "titulo": "IT - Capítulo 2",
       "categoria": "Película",
       "genero": "Terror, Suspenso, Fantasía",
@@ -254,7 +254,7 @@
    },
    {
       "id": 24,
-      "poster": "/posters/24.jpg",
+      "poster": "public/posters/24.jpg",
       "titulo": "Pantera Negra",
       "categoria": "Película",
       "genero": "Acción, Aventura, Fantasía",
@@ -265,7 +265,7 @@
    },
    {
       "id": 25,
-      "poster": "/posters/25.jpg",
+      "poster": "public/posters/25.jpg",
       "titulo": "Contra lo imposible (Ford versus Ferrari)",
       "categoria": "Película",
       "genero": "Drama, Historia, Aventura",
@@ -276,7 +276,7 @@
    },
    {
       "id": 26,
-      "poster": "/posters/26.jpg",
+      "poster": "public/posters/26.jpg",
       "titulo": "Centígrados",
       "categoria": "Película",
       "genero": "Drama, Suspenso, Intriga",
@@ -287,7 +287,7 @@
    },
    {
       "id": 27,
-      "poster": "/posters/27.jpg",
+      "poster": "public/posters/27.jpg",
       "titulo": "DOOM: Aniquilación",
       "categoria": "Documental",
       "genero": "Acción, Sci-Fi, Terror",
@@ -298,7 +298,7 @@
    },
    {
       "id": 28,
-      "poster": "/posters/28.jpg",
+      "poster": "public/posters/28.jpg",
       "titulo": "Contagio",
       "categoria": "Película",
       "genero": "Drama, Suspenso, ¿Ficción?",
@@ -309,7 +309,7 @@
    },
    {
       "id": 29,
-      "poster": "/posters/29.jpg",
+      "poster": "public/posters/29.jpg",
       "titulo": "Viuda Negra",
       "categoria": "Película",
       "genero": "Drama, Acción, Aventura",
@@ -320,7 +320,7 @@
    },
    {
       "id": 30,
-      "poster": "/posters/30.jpg",
+      "poster": "public/posters/30.jpg",
       "titulo": "The Martian",
       "categoria": "Película",
       "genero": "Drama, Sci-Fi, Aventura",
@@ -331,7 +331,7 @@
    },
    {
       "id": 31,
-      "poster": "/posters/31.jpg",
+      "poster": "public/posters/31.jpg",
       "titulo": "Ex-Machina",
       "categoria": "Película",
       "genero": "Drama, Sci-Fi, Suspenso",
@@ -342,7 +342,7 @@
    },
    {
       "id": 32,
-      "poster": "/posters/32.jpg",
+      "poster": "public/posters/32.jpg",
       "titulo": "Jurassic World",
       "categoria": "Película",
       "genero": "Suspenso, Aventura, Ficción",
@@ -353,7 +353,7 @@
    },
    {
       "id": 33,
-      "poster": "/posters/33.jpg",
+      "poster": "public/posters/33.jpg",
       "titulo": "Soy leyenda",
       "categoria": "Película",
       "genero": "Drama, Terror, Ficción",
@@ -364,7 +364,7 @@
    },
    {
       "id": 34,
-      "poster": "/posters/34.jpg",
+      "poster": "public/posters/34.jpg",
       "titulo": "El primer hombre en la luna",
       "categoria": "Película",
       "genero": "Drama, Hechos verídicos",
@@ -375,7 +375,7 @@
    },
    {
       "id": 35,
-      "poster": "/posters/35.jpg",
+      "poster": "public/posters/35.jpg",
       "titulo": "Titanes del pacífico - La insurrección",
       "categoria": "Película",
       "genero": "Acción, Fantasía, Sci-Fi",

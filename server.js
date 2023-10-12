@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const contenido = require('./src/modelos/contenido'); 
+const contenido = require('./src/modelos/contenido');
 const sequelize = require('./src/conexion/connection');
 const { DataTypes, Sequelize, Op } = require('sequelize');
 
