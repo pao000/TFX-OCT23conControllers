@@ -7,6 +7,9 @@ const contenidoRoutes = require('./src/routes/contenidoRoutes');
 
 app.use('/contenido', contenidoRoutes);
 
+app.use('/poster', express.static('public/poster'));
+
+
 const {
     getAllCategorias,
 } = require('./src/controllers/categoriasController');
@@ -36,6 +39,7 @@ app.get('/catalogo', getAllContenidos);
 app.get('/catalogo/:catalogoid', getContenidoById);
 app.get('/catalogo/genero/:genero', getGeneroByNombre);
 app.get('/catalogo/titulo/:titulo', contenidoController.getContenidoByTitulo);
+app.get('/catalogo/temporada/:temporada', contenidoController.getContenidoByTemporada);
 
 // Manejo de errores centralizado
 app.use((err, req, res, next) => {
