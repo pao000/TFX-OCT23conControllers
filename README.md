@@ -11,6 +11,9 @@ http://localhost:3000/
 
 La API de Trailerflix proporciona acceso a información sobre películas, series y documentales. Puedes buscar contenido por título, categoría, género, temporada y más.
 
+## Listado de Contenido
+Lista de todo el contenido disponible. También incluye rutas absolutas para los pósters.
+
 ## Endpoints
 
 | Función                  | Ruta                                 | Método | Ejemplo de Solicitud                          |
