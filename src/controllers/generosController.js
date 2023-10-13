@@ -7,7 +7,7 @@ const getGeneroByNombre = async (req, res, next) => {
         const generosEncontrados = await Genero.findAll({
             where: {
                 genero: {
-                    [Op.like]: `%${genero}%` // Cambiar a Op.like para MySQL
+                    [Op.like]: `%${genero}%` 
                 }
             }
         });
