@@ -2,6 +2,13 @@
 # API de Trailerflix
 ## Uso de la API
 
+
+### Gettin Started
+
+Para acceder a la base de datos usá la siguiente URL:
+
+http://localhost:3000/
+
 La API de Trailerflix proporciona acceso a información sobre películas, series y documentales. Puedes buscar contenido por título, categoría, género, temporada y más.
 
 
