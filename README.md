@@ -13,8 +13,6 @@ La API de Trailerflix proporciona acceso a información sobre películas, series
 
 ## Endpoints
 
-
-
 | Función                  | Ruta                                 | Método | Ejemplo de Solicitud                          |
 |--------------------------|-------------------------------------|--------|----------------------------------------------|
 | Listado de Categorías    | `/categorias`                        | GET    | `GET /categorias`                            |
@@ -23,6 +21,8 @@ La API de Trailerflix proporciona acceso a información sobre películas, series
 | Búsqueda por Género      | `/catalogo/genero/{genero}`          | GET    | `GET /catalogo/genero/acción`                |
 | Búsqueda por Título      | `/catalogo/titulo/{titulo}`          | GET    | `GET /catalogo/titulo/Pelicula%201`         |
 | Búsqueda por Temporada   | `/catalogo/temporada/{temporada}`    | GET    | `GET /catalogo/temporada/1`                  |
+| Ver Póster de Contenido  | `/poster/{catalogoid}`               | GET    | `GET /poster/1`                              |
+
 
 
 
