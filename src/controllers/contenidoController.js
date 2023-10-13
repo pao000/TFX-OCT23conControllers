@@ -2,18 +2,6 @@ const contenido = require('../modelos/contenido');
 const { Op } = require('sequelize');
 
 
-// const getAllContenidos = async (req, res, next) => {
-//     try {
-//         const allContenidos = await contenido.findAll();
-//         !allContenidos.length
-//             ? res.status(404).json({ error: "No se encontraron productos." })
-//             : res.status(200).json(allContenidos);
-//     } catch (error) {
-//         next(error);
-//     }
-// };
-
-
 const getAllContenidos = async (req, res, next) => {
     try {
         const allContenidos = await contenido.findAll();
@@ -22,11 +10,10 @@ const getAllContenidos = async (req, res, next) => {
             return;
         }
 
-        // Construir la URL absoluta de la imagen basada en la URL de la solicitud
         const absolutePosterPaths = allContenidos.map((item) => {
             return {
                 ...item.toJSON(),
-                poster: `${req.protocol}://${req.get('host')}/${item.poster}`, // Reemplaza 'poster' con el nombre del campo real en tu modelo
+                poster: `${req.protocol}://${req.get('host')}/${item.poster}`,  
             };
         });
 
@@ -48,7 +35,6 @@ const getContenidoById = async (req, res, next) => {
     }
 };
 
-// contenidoController.js
 
 const getContenidoByTitulo = async (req, res, next) => {
     try {
@@ -77,7 +63,7 @@ const getContenidoByTemporada = async (req, res, next) => {
 
         const catalogo = await contenido.findAll({
             where: {
-                temporadas: temporada, // Filtra por la temporada proporcionada en la URL
+                temporadas: temporada, 
             },
         });
 

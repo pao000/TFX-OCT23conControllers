@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const contenido = require('./src/modelos/contenido');
 const sequelize = require('./src/conexion/connection');
-const contenidoController = require('./src/controllers/contenidoController'); // Agrega esta línea
+const contenidoController = require('./src/controllers/contenidoController');
 const contenidoRoutes = require('./src/routes/contenidoRoutes');
 
 app.use('/contenido', contenidoRoutes);
@@ -41,7 +41,7 @@ app.get('/catalogo/genero/:genero', getGeneroByNombre);
 app.get('/catalogo/titulo/:titulo', contenidoController.getContenidoByTitulo);
 app.get('/catalogo/temporada/:temporada', contenidoController.getContenidoByTemporada);
 
-// Manejo de errores centralizado
+
 app.use((err, req, res, next) => {
     console.error(err.stack);
     res.status(500).json({ error: "Error interno del servidor", description: err.message });
