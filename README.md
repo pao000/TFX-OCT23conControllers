@@ -1,11 +1,9 @@
 
 # API de Trailerflix
+## Uso de la API
 
 La API de Trailerflix proporciona acceso a información sobre películas, series y documentales. Puedes buscar contenido por título, categoría, género, temporada y más.
 
-## Uso de la API
-
-# API de Trailerflix
 
 
 | Función                  | Ruta                                 | Método | Ejemplo de Solicitud                          |
